@@ -1,0 +1,30 @@
+/* Styles for Button */
+.buttonRoot {
+  @apply flex items-center justify-center rounded-[3px] transition duration-150 ease-in-out focus:outline-none;
+}
+
+/*Button with white color*/
+.primary {
+  @apply text-white bg-primary;
+}
+.ghost {
+  @apply rounded-[3px];
+}
+.secondary {
+  @apply text-white bg-secondary;
+}
+
+/* Sizes */
+.md {
+  @apply h-[2.625rem];
+}
+.disabled,
+.disabled:hover {
+  @apply cursor-not-allowed;
+  filter: grayscale(0.4);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Styles for Input */

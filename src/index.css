@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00152f;
+  --secondary: #0c67a0;
+  --neutral: #000e28;
+
+  /* text */
+  --accent-100: #e0e9f7;
+  --accent-200: #2b80b0;
+  --accent-300: #85a7cd;
+  --accent-400: #f0f5f7;
+}
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+}
